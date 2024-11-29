@@ -10,7 +10,10 @@
   justify-content: center;
   text-align: center;
 }
+body {
+  background-color: red;
 
+}
 .restvid {
   position: flex; 
   width: 100%; 
@@ -37,11 +40,19 @@
   position: flex;
 }
 .bigdiv{
-  top: 50px;
-
+  float: right;
+  width: 10px;
+  text-align: center;
+  height: 400px;
+}
+.sng{
+  text-align: center;
+  font-size: 30px;
 }
 .smalldiv{
-  float: right;
+  float: left;
+  width: 10px;
+  height: 400px;
 }
 .oi{
   background-color: cyan;
@@ -50,9 +61,10 @@
   height: 100px;
   color: white;
 }
-.text{
-  text-align: center;
+.yns{
+  background-color: beige;
 }
+
 
 
 #carouselExampleIndicators {
@@ -60,4 +72,13 @@
   max-width: 900px;
   margin: 0 auto; 
 }
-
+.sng1{
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+#carouselExampleControlsNoTouching{
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto; 
+}
