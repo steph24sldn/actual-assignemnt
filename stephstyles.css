@@ -1,0 +1,63 @@
+.bar1 {
+  position: fixed; /* Fix the image relative to the viewport */
+  top: 80px; /* Starts 80px from the top, adjust as needed for navbar space */
+  left: 50%; /* Center the image horizontally */
+  transform: translateX(-50%); /* Offset the image by 50% of its width to center it */
+  width: 100%; /* Make the image take up the full width of the viewport */
+  height: 50%; /* Set the image height to 50% of the viewport height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  z-index: 0; /* Ensure it stays behind the navbar if needed */  
+  justify-content: center;
+  text-align: center;
+}
+
+.restvid {
+  position: flex; 
+  width: 100%; 
+  height: 50%; 
+  z-index: 0; 
+}
+.navbar-nav .nav-link {
+  font-size: 18px; 
+  font-weight: bold; 
+}
+
+
+
+.space-mono-regular {
+  font-family: "Space Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0%; 
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.stephate{
+  position: flex;
+}
+.bigdiv{
+  top: 50px;
+
+}
+.smalldiv{
+  float: right;
+}
+.oi{
+  background-color: cyan;
+  align-content: center  ;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+.text{
+  text-align: center;
+}
+
+
+#carouselExampleIndicators {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto; 
+}
+
